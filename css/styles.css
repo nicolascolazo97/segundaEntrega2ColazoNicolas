@@ -1,0 +1,231 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%}
+/*.blanco pastel{ #f8f8ec };
+.amarillo{ #aedd2b };
+.azulMasClaro { #066699 };
+.azulIntermedio { #0a5483 };
+.azulMasOscuro { #02416d };*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Oswald:wght@200&display=swap');
+
+.cuerpo{
+  background-image: url(../assets/images/teemofond.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cuerpo section {
+  margin-left: 2em;
+  margin-right: 2em;
+  
+  
+  
+
+
+  
+        }
+/*.cabecera {
+ background-color: #02416d;
+ margin:0;
+ padding: 0;
+ 
+
+ }
+
+.cabecera a img {
+  margin-top: 20px;
+  margin-left: 20px;
+ 
+}
+ 
+.cabecera nav ul li a{
+  
+  text-decoration-line: none;
+  color: #aedd2b;
+  font-family: 'Lato', sans-serif;;
+  font-size: 2rem;
+  
+
+.cabecera nav ul li a:hover{color: #066699;}
+
+.cabecera nav ul{text-align: end;
+  list-style-type: none;
+}  
+
+.box{text-align: center;
+font-size: 1rem;}
+.box .fondoBox{ 
+  background-image: url(../assets/images/bann.jpg);
+  background-repeat: no-repeat ;
+  
+  height: 200px;
+  margin-left:17.3em;
+  margin-right:17.3em;
+ background-size: auto;
+ 
+
+  
+}
+.cuerpo section article{
+  background-color: #0a5483;
+  height: 350px;
+  width: 50%;
+  font-size: 6rem;
+  text-align: center;
+  margin: auto;
+  
+  CODIGO DE CUANDO LO EMPECE A HACER LO DEJO SOLO COMO PRUEBA DE QUE INTENTE ORDENAR UN POCO LAS CALSS
+}
+
+*/
+.cabecera{
+  background-color: #02416d;
+  position: sticky;
+  top: 0px;
+  padding: 8px;
+  z-index: 10;
+}
+.cabecera__nav__lis li a{ 
+  width: 100%;
+
+  text-decoration: none;
+  font-size: 2rem;
+  color: #aedd2b;
+  font-family: 'Lato', sans-serif;;
+  
+ 
+  
+  }
+.cabecera__nav__lis {
+  text-align: end;
+  margin: 5px;
+  padding: 2px;
+  padding-bottom: 10px;
+
+}
+
+.cabecera__logo{
+  margin-left: 20px;
+	position: relative;
+  top: 70px;
+  
+}
+
+
+
+.section {
+  text-align: center ;
+  align-items: center;
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+  
+  
+  
+  }
+.section__div--box1 {
+  font-size: 1rem;
+  background-image: url(../assets/images/bann.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 400px;
+  margin-left: 400px;
+  border: #9bcff5;
+  border-style: ridge;
+  }
+
+  .section__div--box2 {
+    font-size: 1rem;
+    background-image: url(../assets/images/vayne.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 400px;
+    margin-left: 400px;
+    border-style: ridge;
+    
+    }
+
+.cajas input{ 
+  height: 30px;
+}
+
+
+.piePag{
+    background-color: #02416d;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
+  }
+
+
+.titulo {color: #aedd2b;
+  font-family: 'Lato', sans-serif;
+ font-size: 4rem;}
+
+
+
+.subTitulo {color: #aedd2b;
+    font-family: 'Lato', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+  padding: 20px;}
+
+p { 
+     font-family: 'Oswald', sans-serif;
+     font-size: 1rem;
+    color: #aedd2b;}
+
+   
+
+
+
+.main div
+ { background-color: #0a5483;
+ 
+  
+  font-family: 'Lato', sans-serif;
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  align-items: center;
+  text-align: center;
+  border: #76b8e7;
+  border-style: ridge;
+}
+ 
+
+
+
+.tamanio{
+  margin: 10px;
+  height: 60px;
+  width: 80px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  }
+  
+
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+  padding-bottom: 10px;
+  border: #aedd2b;
+  border-style: ridge;
+  
+}
+nav li :hover{
+  color: #76b8e7;
+  
+}
