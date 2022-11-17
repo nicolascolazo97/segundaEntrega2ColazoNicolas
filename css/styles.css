@@ -19,67 +19,7 @@
 .cuerpo section {
   margin-left: 2em;
   margin-right: 2em;
-  
-  
-  
-
-
-  
         }
-/*.cabecera {
- background-color: #02416d;
- margin:0;
- padding: 0;
- 
-
- }
-
-.cabecera a img {
-  margin-top: 20px;
-  margin-left: 20px;
- 
-}
- 
-.cabecera nav ul li a{
-  
-  text-decoration-line: none;
-  color: #aedd2b;
-  font-family: 'Lato', sans-serif;;
-  font-size: 2rem;
-  
-
-.cabecera nav ul li a:hover{color: #066699;}
-
-.cabecera nav ul{text-align: end;
-  list-style-type: none;
-}  
-
-.box{text-align: center;
-font-size: 1rem;}
-.box .fondoBox{ 
-  background-image: url(../assets/images/bann.jpg);
-  background-repeat: no-repeat ;
-  
-  height: 200px;
-  margin-left:17.3em;
-  margin-right:17.3em;
- background-size: auto;
- 
-
-  
-}
-.cuerpo section article{
-  background-color: #0a5483;
-  height: 350px;
-  width: 50%;
-  font-size: 6rem;
-  text-align: center;
-  margin: auto;
-  
-  CODIGO DE CUANDO LO EMPECE A HACER LO DEJO SOLO COMO PRUEBA DE QUE INTENTE ORDENAR UN POCO LAS CALSS
-}
-
-*/
 .cabecera{
   background-color: #02416d;
   position: sticky;
