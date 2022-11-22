@@ -11,160 +11,31 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Oswald:wght@200&display=swap');
 
-.cuerpo{
-  background-image: url(../assets/images/teemofond.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.cuerpo section {
-  margin-left: 2em;
-  margin-right: 2em;}
-.cabecera{
-  background-color: #02416d;
-  position: sticky;
-  top: 0px;
-  padding: 8px;
-  z-index: 10;
-}
-.cabecera__nav__lis li a{ 
-  width: 100%;
+.tamanio {
+  font-size: 4rem;
+  color: rgb(5, 5, 5);}
 
-  text-decoration: none;
-  font-size: 2rem;
-  color: #aedd2b;
-  font-family: 'Lato', sans-serif;;
-  
- 
-  
+.endNav {
+    align-items: flex-end;
+    justify-content: end;
+    text-align: end;
   }
-.cabecera__nav__lis {
-  text-align: end;
-  margin: 5px;
-  padding: 2px;
-  padding-bottom: 10px;
-
+.parrafo { 
+  font-size: 1.5rem;
+  color: rgb(174, 252, 222);
 }
-
-.cabecera__logo{
-  margin-left: 20px;
-	position: relative;
-  top: 70px;
-  
+.titulo {
+  font-size: 4rem;
+  color: rgb(174, 252, 222);
 }
-
-
-
-.section {
-  text-align: center ;
-  align-items: center;
-  margin:auto;
-  display: flex;
-  flex-direction: row;
   
-  
-  
-  }
-.section__div--box1 {
-  font-size: 1rem;
-  background-image: url(../assets/images/bann.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: 400px;
-  margin-left: 400px;
-  border: #9bcff5;
-  border-style: ridge;
-  }
-
-  .section__div--box2 {
-    font-size: 1rem;
-    background-image: url(../assets/images/vayne.jpg );
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 250px;
-    width: 400px;
-    margin-left: 400px;
-    border-style: ridge;
-    
-    }
-
-.cajas input{ 
-  height: 30px;
+.subTitulo {
+  font-size: 3rem;
+  color: rgb(174, 252, 222);
 }
-
-
-.piePag{
-    background-color: #02416d;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    
-  }
-
-
-.titulo {color: #aedd2b;
-  font-family: 'Lato', sans-serif;
- font-size: 4rem;}
-
-
-
-.subTitulo {color: #aedd2b;
-    font-family: 'Lato', sans-serif;
-    font-size: 3rem;
-    text-align: center;
-  padding: 20px;}
-
-p { 
-     font-family: 'Oswald', sans-serif;
-     font-size: 1rem;
-    color: #aedd2b;}
-
-   
-
-
-
-.main div
- { background-color: #0a5483;
- 
-  
-  font-family: 'Lato', sans-serif;
-  width: 600px;
-  height: 300px;
-  margin: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 4px;
-  align-items: center;
-  text-align: center;
-  border: #76b8e7;
-  border-style: ridge;
+.bgDefault {
+  background-color: rgb(14, 52, 124);
 }
- 
-
-
-
-.tamanio{
-  margin: 10px;
-  height: 60px;
-  width: 80px;
-  font-family: 'Oswald', sans-serif;
-  font-size: 1rem;
-  }
-  
-
-
-nav li {
-  display: inline-block;
-  padding: 10px;
-  padding-bottom: 10px;
-  border: #aedd2b;
-  border-style: ridge;
-  
-}
-nav li :hover{
-  color: #76b8e7;
-  
+.filtro {
+  filter: brightness(50%);
 }
