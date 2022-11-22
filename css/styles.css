@@ -11,10 +11,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Oswald:wght@200&display=swap');
 
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
 .tamanio {
   font-size: 4rem;
-  color: rgb(5, 5, 5);}
-
+  color: rgb(5, 5, 5);
+  text-decoration: none;
+}
 .endNav {
     align-items: flex-end;
     justify-content: end;
@@ -22,20 +29,89 @@
   }
 .parrafo { 
   font-size: 1.5rem;
-  color: rgb(174, 252, 222);
+  color: #181c1d;
 }
 .titulo {
   font-size: 4rem;
-  color: rgb(174, 252, 222);
+  color: #181c1d;
+  font-family: var(--bs-font-sans-serif);
 }
   
 .subTitulo {
   font-size: 3rem;
-  color: rgb(174, 252, 222);
+  color: #181c1d;
 }
+
 .bgDefault {
-  background-color: rgb(14, 52, 124);
+  background: linear-gradient(to bottom, #0e347c, #0065ae, #0096ca, #00c6cf, #1af3c4);;
+  background-repeat: no-repeat;
+  
 }
 .filtro {
   filter: brightness(50%);
 }
+.foot {
+  background-color: #1AF3C4;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px ;
+  color: #1af3c4;
+}
+.footer-basic{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20;
+  color: white;
+  position: fixed;
+
+}
+.footer-basic ul a:hover {
+  opacity:1
+  
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+  background-color: #1AF3C4;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+  background-color: #1AF3C4;
+  
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+.footBg{
+  background-color: #1AF3C4;
+}
+.alinear{
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
