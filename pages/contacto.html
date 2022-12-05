@@ -18,65 +18,54 @@
     <link rel="stylesheet" href="../css/styles.css">
 
 </head>
-<body class="d-flex h-100 text-center bgDefault ">
+<body class="d-flex h-100 text-center bgDefault">
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bgDefault ">
         <div class="container-fluid">
           <img  src="../assets/images/logo100.png" alt="">
-          <a class="navbar-brand tamanio" href="../inicio.html">FREEGENT</a>
+          <a class="navbar-brand tamanio btn-3" href="../inicio.html">FREEGENT</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0 tamanio">
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACTO</a>
+                <a class="nav-link link" href="#">CONTACTO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./juegos.html">JUEGO</a>
+                <a class="nav-link link" href="./juegos.html">JUEGO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
+                <a class="nav-link link" href="./nosotros.html">NOSOTROS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./unirse.html">UNIRSE</a>
+                <a class="nav-link link" href="./unirse.html">UNIRSE</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-
     <main>
-        <div class="container tamanio">
-          <h1>DEJANOS TU CONSULTA</h1>
-          <section class="align-items-center justify-content-center">
-              <form>
-                <div class="form-floating parrafo">
-                  <input type="text" placeholder="Ingrese su Nombre*" required>
-                </div>  
-                <div class="form-floating parrafo">
-                  <input type="email" placeholder="e-mail*"required>
-                </div> 
-                <div class="form-floating parrafo">
-                      <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Ingrese un Comentario" required></textarea>
-                </div>    
-                
-
-                <div class="form-floating parrafo">
-                  <input id="enviar" type="submit" value="Enviar">
-                  <input type="reset" value="borrar formulario">
-                </div>
-                <div class="form-floating parrafo alinear">
-                      
-                      <h2>ANIMATE A SER PRO PLAYER CON NOSOTROS</h2>
-                      <img src="../assets/images/Ephoto360.com_1637c4341b84cc.jpg" alt="banner1" height="250" width="900">
-                </div>
-                
-              </form>
-
-          </section>
+      <h1 class="titulo">Dejanos tu duda o consulta aqui</h1>
+      <div class="container form-signin align-items-center justify-content-center">
+        <form>
+          <img class="mb-4" src="../assets/images/logo100.png" alt="" width="72" height="57" >
+          <h1 class="h3 mb-3 fw-normal">escriba el mensaje a continuacion</h1>
+      
+          <div class="form-floating parrafo">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" checked>
+            <label for="floatingInput">Ingrese su Email</label>
+          </div>
+          <div class="form-floating parrafo separar alinear">
+            <textarea name="comentario" id="comentario" cols="35  " rows="10" placeholder="Ingrese un Comentario" required></textarea>
+          </div>  
+        <div class="checkbox mb-3 parrafo">
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">ENVIAR</button>
+        </form>
+      </div>
       
         </div>
 
