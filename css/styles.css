@@ -54,7 +54,8 @@
 .bgDefault {
   background-image: radial-gradient(circle, #1af3c4, #00ded4, #00c7db, #00afd8, #0096ca);
   background-size: cover;
-  background-repeat: repeat;}
+  background-repeat: repeat;
+  }
 .filtro {
   filter: brightness(50%);
   object-fit: cover;
@@ -151,6 +152,19 @@
   box-shadow: 0 0 2px #1af3c4, 0 0 10px #1af3c4c5, 0 0 13px #1af3c47e, 0 0 50px #1af3c43d;
 }
 .separar{
-  padding: 1em;
-  
+  padding: 0.5em;
+}
+.bgCuadro {
+  background-color: #350fbb;
+  border-radius: 3px;
+  padding: 50px;
+
+}
+.tamanioBox{
+  width: 300px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
 }
