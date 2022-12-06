@@ -1,0 +1,12 @@
+@mixin padding1-5 {
+    padding: 0.5em;
+}
+@mixin cuadro1 {
+    background-color: #350fbb;
+    border-radius: 3px;
+    padding: 50px;
+}
+@mixin fuentes ($size, $coloresDelProyecto) {
+    font-size: $size;
+    color: $coloresDelProyecto;
+}

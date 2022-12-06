@@ -1,0 +1,187 @@
+  *{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    }
+  
+  @import "variables";
+  @import "mixins";
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Oswald:wght@200&display=swap');
+  
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  /* ANIDACION DE LOS ESTILOS DE CSS CON SCSS EN EL HEADER */
+  header{
+        .bgHeader{
+            background-color: map-get($coloresDelProyecto , colorHeader );
+            padding: 5px 0;
+        }
+        div{
+            .btn-3:hover {
+                background: map-get($coloresDelProyecto: , colorBoton3 );
+                box-shadow: 0 0 2px #1af3c4, 0 0 10px #1af3c4c5, 0 0 13px #1af3c47e, 0 0 50px #1af3c43d;
+              }
+            .link{
+                display: inline-block;
+                margin-block: 2px;
+                text-decoration: none;
+                color:#fff;
+                position: relative;
+                margin-top:10px;
+                font-size: 1.5rem;
+              }
+        }
+    
+  }
+
+/*
+  .bgHeader{
+    background-color: #0096ca;
+  }*/
+  .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  .tamanio {
+    font-size: 4rem;
+    color: rgb(5, 5, 5);
+    
+  }
+  .parrafo { 
+    @include fuentes (map-get(fontP), map-get($coloresDelProyecto:colorParrafo)); /*IMPLEMENTACION DE MAPAS */
+  }
+  .titulo {
+    @include fuentes (map-get(fontTit), map-get($coloresDelProyecto:colorTitulo));
+  }
+    
+  .subTitulo {
+    @include fuentes (map-get(fontST), map-get($coloresDelProyecto:colorSubTitulo));
+  }
+  
+  .bgDefault {
+    background-image: radial-gradient(circle, #1af3c4, #00ded4, #00c7db, #00afd8, #0096ca);
+    background-size: cover;
+    background-repeat: repeat;
+    }
+  .filtro {
+    filter: brightness(50%);
+    object-fit: cover;
+  }
+  
+  .footer-basic{
+    position: absolute;
+    height: 20;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    margin-bottom: 0%;
+    display: block;
+  }
+  .footer-basic ul a:hover {
+    opacity:1
+    }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:3px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  .footBg{
+    background-color: map-get($coloresDelProyecto , colorBtn);
+  
+  }
+  .alinear{
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+   .color{
+    background-color: map-get($coloresDelProyecto: , color1 );
+   }
+  .botonColor{
+    background-color: #1AF3C4;
+  } 
+  .botonColor:hover {
+    background-color: rgb(225, 234, 241);
+  }
+  /*.link{
+    display: inline-block;
+    margin-block: 2px;
+    text-decoration: none;
+    color:#fff;
+    position: relative;
+    margin-top:10px;
+    font-size: 1.5rem;
+  }*/
+  .link::after{
+    content:'';
+    width: 100%;
+    height:1px;
+    background-color: #fff;
+    border-radius:4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform:scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+  }
+  .link:hover::after{
+    transform:scaleX(1);
+  }
+ /* .btn-3:hover {
+    background: #1af3c4;
+    box-shadow: 0 0 2px #1af3c4, 0 0 10px #1af3c4c5, 0 0 13px #1af3c47e, 0 0 50px #1af3c43d;
+  }*/
+  .separar{
+    @include padding1-5; /* MIXIN EJEMPLO */
+  }
+  .bgCuadro {
+    @include cuadro1;
+  
+  }
+  .tamanioBox{
+    width: 300px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
