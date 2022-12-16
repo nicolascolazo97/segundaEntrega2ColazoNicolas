@@ -1,0 +1,15 @@
+.tamanio {
+    font-size: 4rem;
+    color: rgb(5, 5, 5);
+    
+  }
+  .parrafo { 
+    @include fuentes (map-get($size, fontP), map-get($coloresDelProyecto, colorParrafo)); /*IMPLEMENTACION DE MAPAS */
+  }
+  .titulo {
+    @include fuentes (map-get($size, fontTit), map-get($coloresDelProyecto, colorTitulo));
+  }
+    
+  .subTitulo {
+    @include fuentes (map-get($size, fontST), map-get($coloresDelProyecto, colorSubTitulo));
+  }

@@ -1,0 +1,38 @@
+header{
+    .bgHeader{
+        background-color: map-get($coloresDelProyecto , colorHeader );
+        padding: 5px 0;
+    }
+    div{
+        .btn-3:hover {
+            background: map-get($coloresDelProyecto , colorBoton3 );
+            box-shadow: 0 0 2px #1af3c4, 0 0 10px #1af3c4c5, 0 0 13px #1af3c47e, 0 0 50px #1af3c43d;
+          }
+        .link{
+            display: inline-block;
+            margin-block: 2px;
+            text-decoration: none;
+            color:#fff;
+            position: relative;
+            margin-top:10px;
+            font-size: 1.5rem;
+          }
+    }
+
+}
+.link::after{
+    content:'';
+    width: 100%;
+    height:1px;
+    background-color: #fff;
+    border-radius:4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform:scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+  }
+  .link:hover::after{
+    transform:scaleX(1);
+  }

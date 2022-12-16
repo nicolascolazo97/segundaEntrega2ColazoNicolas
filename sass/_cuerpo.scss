@@ -1,0 +1,56 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+ 
+  
+  .bgDefault {
+    background-image: radial-gradient(circle, #1af3c4, #00ded4, #00c7db, #00afd8, #0096ca);
+    background-size: cover;
+    background-repeat: repeat;
+    }
+  .filtro {
+    filter: brightness(50%);
+    object-fit: cover;
+  }
+  
+  
+  .alinear{
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+   .color{
+    background-color: map-get($coloresDelProyecto , color1 );
+   }
+  .botonColor{
+    background-color: #1AF3C4;
+  } 
+  .botonColor:hover {
+    background-color: rgb(225, 234, 241);
+  }
+
+  .separar{
+    @include padding1-5; /* MIXIN EJEMPLO */
+  }
+  .bgCuadro {
+    @include cuadro1;
+  }
+ 
