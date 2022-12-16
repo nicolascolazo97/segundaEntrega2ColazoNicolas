@@ -5,22 +5,18 @@
     -moz-user-select: none;
     user-select: none;
   }
-  
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
   }
-
-  .form-signin {
+ .form-signin {
     width: 100%;
     max-width: 330px;
     padding: 15px;
     margin: auto;
   }
- 
-  
-  .bgDefault {
+ .bgDefault {
     background-image: radial-gradient(circle, #1af3c4, #00ded4, #00c7db, #00afd8, #0096ca);
     background-size: cover;
     background-repeat: repeat;
